@@ -1,0 +1,170 @@
+{
+  "hash": "0x6ec62f84222d6fe3de71f95eeb343cff6a95338ee8c7cf14cb429a1685cf0294",
+  "from_address": "0x5145Ed45696bc9a1c14CfB6F3602C8F06282a982",
+  "to_address": "0x7C2F5EcF49A5c4aBEA56099668313C70040EC916",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[81,\"ed8c912f0bd2af898d32b7f93873ab07c4da1c8d6495f9c73ff9251192756880\",]\"method\":\"reveal\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "agree",
+      "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+      "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[81,\"ed8c912f0bd2af898d32b7f93873ab07c4da1c8d6495f9c73ff9251192756880\",]\"method\":\"reveal\"}"
+        },
+        "eq_outputs": {},
+        "result": {
+          "status": "rollback",
+          "payload": "[EXPECTED] Opening does not match commitment"
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree",
+        "calldata": {
+          "readable": "{\"args\":[81,\"ed8c912f0bd2af898d32b7f93873ab07c4da1c8d6495f9c73ff9251192756880\",]\"method\":\"reveal\"}"
+        },
+        "result": {
+          "status": "rollback",
+          "payload": "[EXPECTED] Opening does not match commitment"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 2,
+  "nonce": 2,
+  "created_at": "2026-10-17T15:02:56.148819+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x5145Ed45696bc9a1c14CfB6F3602C8F06282a982",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9018902808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b9012427241a990000000000000000000000005145ed45696bc9a1c14cfb6f3602c8f06282a9820000000000000000000000007c2f5ecf49a5c4abea56099668313c70040ec9160000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000005ef85cb859160461726773158905840465643863393132663062643261663839386433326237663933383733616230376334646131633864363439356639633733666639323531313932373536383830066d6574686f643472657665616c0000008301e482a021da24cfc8f76e66dfdb5b019c5b440e2cbbf1394918739c10009ad7540553d8a031ba34012cb553719cfd2eb48b93136c77333295e6493174584c883f7076600a"
+  },
+  "value_credited": false,
+  "sender": "0x5145Ed45696bc9a1c14CfB6F3602C8F06282a982",
+  "recipient": "0x7C2F5EcF49A5c4aBEA56099668313C70040EC916",
+  "tx_id": "0x6ec62f84222d6fe3de71f95eeb343cff6a95338ee8c7cf14cb429a1685cf0294",
+  "activator": "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef",
+  "last_leader": "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43",
+      "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb",
+      "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1",
+      "0x0B50B270Eba5D9B780272C4Cf4720260177e761D"
+    ],
+    "validator_votes_hash": [
+      "0xa459e252fa0330bb89372a2b6918b8f4c5d201a6355d344ec70c23e0f55597f4",
+      "0x78c811c87e006b0d39b278ad5840ccb6f4a853e9dd18d5f66fd780f4094a379d",
+      "0x3b9a7e871d9348d817b62b40eda112bfc8fa0b3bd68ae5c422d91d85b2cfef2f",
+      "0x81cea4c1723137a0a43ab9371f1d8f837ade8d45b60d38777c55a4bd94605e10",
+      "0xe8ecc3232e187ebffb1ec58f056998a157f4d861ee2d1c145e4b43d1eef3d44c"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

@@ -1,0 +1,66 @@
+{
+  "contract": "0x5480fBc93ab2590A5d1A56917055D6c5aB887CF8",
+  "transaction": "0x3987a8ebbb20a4e5c4e455dba5643fdfcf89718b71ad73d839bc6f40dfa82acb",
+  "sender": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+  "success": true,
+  "reason": null,
+  "method": "reveal",
+  "args": [
+    "20",
+    "f66e299f5f6b7fa20da3ec7c931527f67deae98c51590d65450cadd62bb7facb"
+  ],
+  "state_before": {
+    "attempts": 0,
+    "commit_until": 1792253465,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "982d8dd42def6cd6f9b98437141b59ee915c712d46869e9b619a822c72739747",
+        "probability": 80,
+        "score": -1
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "54288cff8ed537f6ec322d1065050bf06b59671bd3422cc354499fbba3f8a929",
+        "probability": -1,
+        "score": -1
+      }
+    ],
+    "latest": null,
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-b.md"
+    ],
+    "reveal_until": 1792257065,
+    "settled": false,
+    "status": "COLLECTING"
+  },
+  "state": {
+    "attempts": 0,
+    "commit_until": 1792253465,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "982d8dd42def6cd6f9b98437141b59ee915c712d46869e9b619a822c72739747",
+        "probability": 80,
+        "score": -1
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "54288cff8ed537f6ec322d1065050bf06b59671bd3422cc354499fbba3f8a929",
+        "probability": 20,
+        "score": -1
+      }
+    ],
+    "latest": null,
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-b.md"
+    ],
+    "reveal_until": 1792257065,
+    "settled": false,
+    "status": "COLLECTING"
+  }
+}

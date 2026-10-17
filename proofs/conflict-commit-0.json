@@ -1,0 +1,65 @@
+{
+  "contract": "0x5480fBc93ab2590A5d1A56917055D6c5aB887CF8",
+  "transaction": "0x06b576438969c9328ff10824f652f8010a006e1af08ca0919e6e039f178a69ec",
+  "sender": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+  "success": true,
+  "reason": null,
+  "method": "commit",
+  "args": [
+    "982d8dd42def6cd6f9b98437141b59ee915c712d46869e9b619a822c72739747"
+  ],
+  "state_before": {
+    "attempts": 0,
+    "commit_until": 1792253465,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "",
+        "probability": -1,
+        "score": -1
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "",
+        "probability": -1,
+        "score": -1
+      }
+    ],
+    "latest": null,
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-b.md"
+    ],
+    "reveal_until": 1792257065,
+    "settled": false,
+    "status": "COLLECTING"
+  },
+  "state": {
+    "attempts": 0,
+    "commit_until": 1792253465,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "982d8dd42def6cd6f9b98437141b59ee915c712d46869e9b619a822c72739747",
+        "probability": -1,
+        "score": -1
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "",
+        "probability": -1,
+        "score": -1
+      }
+    ],
+    "latest": null,
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-b.md"
+    ],
+    "reveal_until": 1792257065,
+    "settled": false,
+    "status": "COLLECTING"
+  }
+}

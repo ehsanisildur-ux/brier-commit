@@ -1,0 +1,131 @@
+{
+  "contract": "0x7C2F5EcF49A5c4aBEA56099668313C70040EC916",
+  "transaction": "0xadc09f3797b803deae19a99a88f93e150deec6408ed91e4e9297418ae5fd04e3",
+  "sender": "0x02356927abbd7cde8e742e8d2e4d58102de1f92e",
+  "success": false,
+  "reason": "[EXPECTED] Forecasts already scored",
+  "method": "resolve",
+  "args": [],
+  "state_before": {
+    "attempts": 1,
+    "commit_until": 1792252819,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "1bd972e64cbcd136485f7f626d244c9e8d150dc9b618851a0399cf1ca1454f8a",
+        "probability": 80,
+        "score": 9600
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "528c43107e06031bb0cc0e4e9a9f6541f4d4ab24bff188db381d02324e4d1570",
+        "probability": 20,
+        "score": 3600
+      }
+    ],
+    "latest": {
+      "decisions": [
+        {
+          "outcome": "YES",
+          "paragraph": 1
+        },
+        {
+          "outcome": "YES",
+          "paragraph": 2
+        }
+      ],
+      "outcome": "YES",
+      "reports": [
+        {
+          "paragraphs": [
+            "# Final Aster chamber record",
+            "The final signed-off operating record confirms Aster completed one uninterrupted sealed-chamber run lasting 31 hours. It ended on 30 September 2026 at 19:00 UTC. The chamber remained sealed for that entire continuous run.",
+            "Planned future tests are listed separately. The completed run above is an observed result, not a forecast or a plan."
+          ],
+          "sha256": "5802c25b5bc75f450f9057c81ad8774c17faf9a4dc1689875343d99c83aac33a",
+          "text": "# Final Aster chamber record\n\nThe final signed-off operating record confirms Aster completed one uninterrupted sealed-chamber run lasting 31 hours. It ended on 30 September 2026 at 19:00 UTC. The chamber remained sealed for that entire continuous run.\n\nPlanned future tests are listed separately. The completed run above is an observed result, not a forecast or a plan.\n",
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-a.md"
+        },
+        {
+          "paragraphs": [
+            "# Corrected final Aster review",
+            "A preliminary draft predicted a 32-hour run and suspected an early seal failure. That draft has been withdrawn after review of the completed run's log.",
+            "The final finding is that Aster maintained the sealed chamber continuously for 31 hours and finished at 19:00 UTC on 30 September 2026. There was no seal interruption during this completed test. This correction supersedes the preliminary draft."
+          ],
+          "sha256": "25792d8b50c8b032e4ca927cfa4bde99ec3e042e0435bd7ab396eb2474d4e02b",
+          "text": "# Corrected final Aster review\n\nA preliminary draft predicted a 32-hour run and suspected an early seal failure. That draft has been withdrawn after review of the completed run's log.\n\nThe final finding is that Aster maintained the sealed chamber continuously for 31 hours and finished at 19:00 UTC on 30 September 2026. There was no seal interruption during this completed test. This correction supersedes the preliminary draft.\n",
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-b.md"
+        }
+      ]
+    },
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-b.md"
+    ],
+    "reveal_until": 1792256419,
+    "settled": true,
+    "status": "SCORED"
+  },
+  "state": {
+    "attempts": 1,
+    "commit_until": 1792252819,
+    "forecasters": [
+      {
+        "address": "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+        "commitment": "1bd972e64cbcd136485f7f626d244c9e8d150dc9b618851a0399cf1ca1454f8a",
+        "probability": 80,
+        "score": 9600
+      },
+      {
+        "address": "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e",
+        "commitment": "528c43107e06031bb0cc0e4e9a9f6541f4d4ab24bff188db381d02324e4d1570",
+        "probability": 20,
+        "score": 3600
+      }
+    ],
+    "latest": {
+      "decisions": [
+        {
+          "outcome": "YES",
+          "paragraph": 1
+        },
+        {
+          "outcome": "YES",
+          "paragraph": 2
+        }
+      ],
+      "outcome": "YES",
+      "reports": [
+        {
+          "paragraphs": [
+            "# Final Aster chamber record",
+            "The final signed-off operating record confirms Aster completed one uninterrupted sealed-chamber run lasting 31 hours. It ended on 30 September 2026 at 19:00 UTC. The chamber remained sealed for that entire continuous run.",
+            "Planned future tests are listed separately. The completed run above is an observed result, not a forecast or a plan."
+          ],
+          "sha256": "5802c25b5bc75f450f9057c81ad8774c17faf9a4dc1689875343d99c83aac33a",
+          "text": "# Final Aster chamber record\n\nThe final signed-off operating record confirms Aster completed one uninterrupted sealed-chamber run lasting 31 hours. It ended on 30 September 2026 at 19:00 UTC. The chamber remained sealed for that entire continuous run.\n\nPlanned future tests are listed separately. The completed run above is an observed result, not a forecast or a plan.\n",
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-a.md"
+        },
+        {
+          "paragraphs": [
+            "# Corrected final Aster review",
+            "A preliminary draft predicted a 32-hour run and suspected an early seal failure. That draft has been withdrawn after review of the completed run's log.",
+            "The final finding is that Aster maintained the sealed chamber continuously for 31 hours and finished at 19:00 UTC on 30 September 2026. There was no seal interruption during this completed test. This correction supersedes the preliminary draft."
+          ],
+          "sha256": "25792d8b50c8b032e4ca927cfa4bde99ec3e042e0435bd7ab396eb2474d4e02b",
+          "text": "# Corrected final Aster review\n\nA preliminary draft predicted a 32-hour run and suspected an early seal failure. That draft has been withdrawn after review of the completed run's log.\n\nThe final finding is that Aster maintained the sealed chamber continuously for 31 hours and finished at 19:00 UTC on 30 September 2026. There was no seal interruption during this completed test. This correction supersedes the preliminary draft.\n",
+          "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-b.md"
+        }
+      ]
+    },
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "report_urls": [
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-a.md",
+      "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-b.md"
+    ],
+    "reveal_until": 1792256419,
+    "settled": true,
+    "status": "SCORED"
+  }
+}

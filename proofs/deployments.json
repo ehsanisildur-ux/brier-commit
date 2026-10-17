@@ -1,0 +1,116 @@
+[
+  {
+    "name": "yes",
+    "contract": "0x7C2F5EcF49A5c4aBEA56099668313C70040EC916",
+    "transaction": "0x952198ead40ceadcfed9ebe0f77aa2f8042baa7f665d8fcb2eed823357e3ea78",
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "forecasters": [
+      "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+      "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e"
+    ],
+    "commit_until": 1792252819,
+    "reveal_until": 1792256419,
+    "fixture_revision": "94f2c34e85a52efeb19b2c31ce46c5ea06e169e4",
+    "fixtures": [
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-a.md",
+        "sha256": "5802c25b5bc75f450f9057c81ad8774c17faf9a4dc1689875343d99c83aac33a",
+        "text": "# Final Aster chamber record\n\nThe final signed-off operating record confirms Aster completed one uninterrupted sealed-chamber run lasting 31 hours. It ended on 30 September 2026 at 19:00 UTC. The chamber remained sealed for that entire continuous run.\n\nPlanned future tests are listed separately. The completed run above is an observed result, not a forecast or a plan.\n"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/yes-b.md",
+        "sha256": "25792d8b50c8b032e4ca927cfa4bde99ec3e042e0435bd7ab396eb2474d4e02b",
+        "text": "# Corrected final Aster review\n\nA preliminary draft predicted a 32-hour run and suspected an early seal failure. That draft has been withdrawn after review of the completed run's log.\n\nThe final finding is that Aster maintained the sealed chamber continuously for 31 hours and finished at 19:00 UTC on 30 September 2026. There was no seal interruption during this completed test. This correction supersedes the preliminary draft.\n"
+      }
+    ],
+    "openings": [
+      {
+        "probability": 80,
+        "salt": "ed8c912f0bd2af898d32b7f93873ab07c4da1c8d6495f9c73ff9251192756880"
+      },
+      {
+        "probability": 20,
+        "salt": "3496de497d5acecbe5d1adac29a9b2dab6735c5eec60986618acc34ac5470bd6"
+      }
+    ],
+    "source_sha256": "c72bdcfd33e4a8555489cd8224d48954478e4bc5d35604d337546a968e0356cc",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "name": "no",
+    "contract": "0xc591af8a9f77bc56385988CfcFB8efFF59e00215",
+    "transaction": "0xb2fde0d4ee7a61f8f51b6208cdc9703666bd4cf3ea62e64f626f2f359e4cfef8",
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "forecasters": [
+      "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+      "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e"
+    ],
+    "commit_until": 1792253204,
+    "reveal_until": 1792256804,
+    "fixture_revision": "94f2c34e85a52efeb19b2c31ce46c5ea06e169e4",
+    "fixtures": [
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/no-a.md",
+        "sha256": "c0eee184a97dad8528d524e4b98c291eda5eab16d6be3991a6b029d1f56243da",
+        "text": "# Complete Aster test-window record\n\nAll Aster tests through 30 September 2026 at 23:59 UTC are now closed and fully reviewed. Two separate sealed runs lasted 18 hours and 16 hours. The chamber was opened between those runs; they were not continuous with each other.\n\nAster completed no single uninterrupted sealed-chamber run of 30 hours or more during the relevant window. Adding the separate runs' hours would misrepresent the completed tests.\n"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/no-b.md",
+        "sha256": "7a69c1ebf1ad715a7e7b11889629023f5a3a0e20b0fce71d44954dc690ea0551",
+        "text": "# Final chamber comparison\n\nNova, a different capsule, completed a continuous sealed run lasting 35 hours on 29 September 2026. That result belongs to Nova, not to Aster.\n\nAster's longest completed continuous sealed run before 30 September 2026 at 23:59 UTC lasted 29 hours. Every Aster run in that window is included in this final review. Aster had no qualifying run lasting at least 30 continuous sealed hours.\n"
+      }
+    ],
+    "openings": [
+      {
+        "probability": 80,
+        "salt": "aeddc3f34358d1f7520b21406de787f09a8a0d752368ffeed55bd0707af667b7"
+      },
+      {
+        "probability": 20,
+        "salt": "a40d534710b5964b78302ea19ce07ef150674832814db207eb145cecb92ef843"
+      }
+    ],
+    "source_sha256": "c72bdcfd33e4a8555489cd8224d48954478e4bc5d35604d337546a968e0356cc",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "name": "conflict",
+    "contract": "0x5480fBc93ab2590A5d1A56917055D6c5aB887CF8",
+    "transaction": "0x0499c5376ba1e1f978258e0e67055ecca1dafb0e455d84506dbd920325979fea",
+    "question": "Did Aster complete one uninterrupted sealed-chamber run of at least 30 hours by 2026-09-30 23:59 UTC? Separate runs cannot be added; predictions, plans and other capsules do not qualify.",
+    "forecasters": [
+      "0x5145ed45696bc9a1c14cfb6f3602c8f06282a982",
+      "0x3a1bfac200e1d40742f876cdb91f5228b45bb21e"
+    ],
+    "commit_until": 1792253465,
+    "reveal_until": 1792257065,
+    "fixture_revision": "94f2c34e85a52efeb19b2c31ce46c5ea06e169e4",
+    "fixtures": [
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-a.md",
+        "sha256": "8f9dcf0f4677320ced4b12bc97034a50e361639e1f21f45f4f3a9710be754fba",
+        "text": "# Final report from desk one\n\nDesk one's completed review concludes that Aster achieved a continuous 31-hour sealed-chamber run, ending at 19:00 UTC on 30 September 2026. This is a confirmed observed result in this report, not an intended future run.\n"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ehsanisildur-ux/brier-commit/94f2c34e85a52efeb19b2c31ce46c5ea06e169e4/reports/conflict-b.md",
+        "sha256": "a91ce458b7822aa0b2a470f7ba6ef5329f9017135734a8e5a46a3054774d674c",
+        "text": "# Final report from desk two\n\nDesk two's complete final review of every Aster test through 30 September 2026 at 23:59 UTC states that the longest uninterrupted sealed run was 29 hours. It explicitly concludes that no Aster run met the 30-hour continuous sealed requirement in that window.\n"
+      }
+    ],
+    "openings": [
+      {
+        "probability": 80,
+        "salt": "54e2055e80c1db1e6013613dafb6bb53f744ed7fc7fda8eb326f579e5b7350e1"
+      },
+      {
+        "probability": 20,
+        "salt": "f66e299f5f6b7fa20da3ec7c931527f67deae98c51590d65450cadd62bb7facb"
+      }
+    ],
+    "source_sha256": "c72bdcfd33e4a8555489cd8224d48954478e4bc5d35604d337546a968e0356cc",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]

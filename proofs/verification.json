@@ -1,0 +1,259 @@
+{
+  "mode": "fresh-rpc-and-state",
+  "source_sha256": "c72bdcfd33e4a8555489cd8224d48954478e4bc5d35604d337546a968e0356cc",
+  "contracts": [
+    {
+      "name": "yes",
+      "contract": "0x7C2F5EcF49A5c4aBEA56099668313C70040EC916",
+      "status": "SCORED",
+      "outcome": "YES",
+      "scores": [
+        9600,
+        3600
+      ]
+    },
+    {
+      "name": "no",
+      "contract": "0xc591af8a9f77bc56385988CfcFB8efFF59e00215",
+      "status": "SCORED",
+      "outcome": "NO",
+      "scores": [
+        3600,
+        9600
+      ]
+    },
+    {
+      "name": "conflict",
+      "contract": "0x5480fBc93ab2590A5d1A56917055D6c5aB887CF8",
+      "status": "AWAITING_OUTCOME",
+      "outcome": "UNRESOLVED",
+      "scores": [
+        -1,
+        -1
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "label": "yes-deployment",
+      "hash": "0x952198ead40ceadcfed9ebe0f77aa2f8042baa7f665d8fcb2eed823357e3ea78",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "unauthorized",
+      "hash": "0xfcd63b0f45f2e8a9b69510b79ccd11a95bf530724e440adc23ed51b98f1410da",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "yes-commit-0",
+      "hash": "0x057551e616e47153d3bfbd51e37cb900156f0a30a1d43b9249bd85c527ebf377",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "yes-commit-1",
+      "hash": "0x705750b5919e4c99f847cb32588b85bcfeb2b6dd3822bbbff99a98ab9af0332a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "bad-opening",
+      "hash": "0x6ec62f84222d6fe3de71f95eeb343cff6a95338ee8c7cf14cb429a1685cf0294",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "yes-reveal-0",
+      "hash": "0x99fffd302fd67e722645b67d2a848af81ce7c63552823501cd7eb97292dfe705",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "yes-reveal-1",
+      "hash": "0x78054f966b8d36779cf5fb1c50e7cd71830225fd14b865581d63d8868136b04f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "yes-resolve",
+      "hash": "0xc24c5182b328aaadf7efbf534a7806437a0e209a62304e0987744e63c3f57f40",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "final-replay",
+      "hash": "0xadc09f3797b803deae19a99a88f93e150deec6408ed91e4e9297418ae5fd04e3",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "no-deployment",
+      "hash": "0xb2fde0d4ee7a61f8f51b6208cdc9703666bd4cf3ea62e64f626f2f359e4cfef8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "no-commit-0",
+      "hash": "0xffb3fd0d1b011ccbbc6ce7c3dfcead033c918df394183ad653937b8c1edc1221",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "no-commit-1",
+      "hash": "0x1f115d6bc494e8237a9f16582197b9b83683f021fb75f9173df0963d5c80b47a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0
+    },
+    {
+      "label": "no-reveal-0",
+      "hash": "0x1e588d0cc6f0d1850a641f30d1957a36bd9a4d2aa0d3d184851ac97dd48e0e7f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "no-reveal-1",
+      "hash": "0x501292c0c197fc96c98f0bfb3fed1ac060e634f6281f85c56d6be30c9aba212b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "no-resolve",
+      "hash": "0x81e852f538c325baeb33cf79380f18f8c90aec07d07523abdedf15f47e5df2b4",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-deployment",
+      "hash": "0x0499c5376ba1e1f978258e0e67055ecca1dafb0e455d84506dbd920325979fea",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-commit-0",
+      "hash": "0x06b576438969c9328ff10824f652f8010a006e1af08ca0919e6e039f178a69ec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1
+    },
+    {
+      "label": "conflict-commit-1",
+      "hash": "0x4a7969780b6dc16040946eabcf11b1eba4e4cd9e2ff4950cc53e4f3642f781ae",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-reveal-0",
+      "hash": "0x46db1711fcd2231f1241e2f144c531cebb174bc88fa6c7759b724ad46accc5fc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-reveal-1",
+      "hash": "0x3987a8ebbb20a4e5c4e455dba5643fdfcf89718b71ad73d839bc6f40dfa82acb",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-resolve",
+      "hash": "0x623431da935a5dda0d74ad042f17166ced62c385676d99f8e14b60449214e643",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "label": "conflict-retry",
+      "hash": "0x91dd355d6090789feb29637f0ea2fa057f503c0f40412a12bf71c3091df4ecec",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    }
+  ],
+  "live_state_match": true
+}

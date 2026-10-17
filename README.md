@@ -2,6 +2,8 @@
 
 Sealed probability forecasts, independent documentary outcome consensus, and exact onchain Brier scores.
 
+**Deployed on StudioNet:** `0x7C2F5EcF49A5c4aBEA56099668313C70040EC916`. [Deployment transaction](https://explorer-studio.genlayer.com/tx/0x952198ead40ceadcfed9ebe0f77aa2f8042baa7f665d8fcb2eed823357e3ea78) · [Three instances and 22 finalized receipts](proofs/README.md) · [Passing CI: 44 tests](https://github.com/ehsanisildur-ux/brier-commit/actions/runs/39042883257).
+
 BrierCommit is a standalone GenLayer forecasting primitive. The deployment freezes a binary question, two report URLs, a bounded roster of forecaster wallets and UTC commit/reveal deadlines. Participants commit salted forecasts before seeing anybody's opening. The commitment binds chain, contract instance, question, signer, integer probability and salt. Only the committing wallet can reveal, and an opening cannot be changed.
 
 After every participant reveals, or the reveal deadline expires, anyone resolves. Leader and validators independently fetch both complete reports, hash the exact bytes, normalize paragraphs, interpret the question against each report and audit material anchors. Forecast values and scores are excluded from these prompts. Exact independent outcome agreement is required for each report. The two reports must also agree YES or NO before any score is written.
@@ -12,8 +14,8 @@ Conflicting or inconclusive reports produce AWAITING_OUTCOME, preserve all forec
 - [Protocol and threat model](docs/architecture.md)
 - [Direct tests and scoring properties](tests/direct/test_brier.py)
 - [Synthetic source reports](reports)
-- [Onchain proof status](proofs/README.md)
-- [Submission draft](docs/submission.md)
+- [Verified onchain proofs](proofs/README.md)
+- [Submission text](docs/submission.md)
 
 ```sh
 pip install -r requirements-dev.txt
